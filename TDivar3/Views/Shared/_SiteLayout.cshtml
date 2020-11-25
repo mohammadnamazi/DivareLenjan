@@ -1,0 +1,63 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" initial-scale="1" />
+    <title>دیوار کشاورزان</title>
+    <link href="~/css/Site.css" rel="stylesheet" />
+    <script src="~/js/Site.js"></script>
+    <script src="~/lib/jQuery/jquery-1.10.2.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap-rtl.min.js"></script>
+    <link href="~/lib/bootstrap/css/bootstrap-rtl.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a6da5501a8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="container-fluid" dir="rtl">
+        <div class="row navbar-border-bottom" >
+            <navbar>
+                <div class="navbar-left hidden-xs">
+                    <a asp-action="Index" asp-controller="HomeF" class="menu-a">صفحه اصلی</a>
+
+                    <a asp-action="ghavanin" asp-controller="HomeF" class="menu-a">شرایط و قوانین</a>
+
+                    <a asp-action="darbarema" asp-controller="HomeF" class="menu-a">درباره ما</a>
+
+                    <a asp-action="Ertebatbama" asp-controller="HomeF" class="menu-a">تماس با ما</a>
+
+                    <a asp-action="Index" asp-controller="Advert" class="btn-red">ثبت آگهی رایگان</a>
+                </div>
+                <div class="navbar-right" style="margin-right: 30px;">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="dropdown">
+                            <button class="btn-red" data-toggle="dropdown" type="button" id="myDropdownlist">
+                                پروفایل
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a asp-action="Index" asp-controller="Profile">میز کار</a></li>
+                                <li><a asp-action="ChangePassword" asp-controller="Profile">تغییر رمز</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a asp-action="LogOut" asp-controller="Account">خروج</a></li>
+                            </ul>
+                        </div>
+                    }
+                    else
+                    {
+                        <a asp-action="Login" asp-controller="Account" class="btn-red">ورود / عضویت </a>
+                    }
+
+                </div>
+            </navbar>
+        </div>
+    </div>
+
+    <div class="main" dir="rtl">
+        @RenderBody()
+    </div>
+    
+</body>
+</html>

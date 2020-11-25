@@ -1,0 +1,14 @@
+﻿@model DataAccessLayer.Entites.Gallary
+
+@{
+    Layout = null;
+}
+
+@if (Model != null)
+{
+    <img src="~/images/adverts/@Model.Image" alt="عکس محصول" class="img-responsive" style="height:297.25px;height:297.25px" />
+}
+else
+{
+    <img src="~/images/default.jpg" alt="عکس محصول" class="img-responsive" />
+}

@@ -1,0 +1,24 @@
+F:\DivarPRJCT\TDivar3\Divar.Core\bin\Debug\netcoreapp3.0\Divar.Core.deps.json
+F:\DivarPRJCT\TDivar3\Divar.Core\bin\Debug\netcoreapp3.0\Divar.Core.dll
+F:\DivarPRJCT\TDivar3\Divar.Core\bin\Debug\netcoreapp3.0\Divar.Core.pdb
+F:\DivarPRJCT\TDivar3\Divar.Core\bin\Debug\netcoreapp3.0\DataAccessLayer.dll
+F:\DivarPRJCT\TDivar3\Divar.Core\bin\Debug\netcoreapp3.0\DataAccessLayer.pdb
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.csprojAssemblyReference.cache
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.AssemblyInfoInputs.cache
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.AssemblyInfo.cs
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.csproj.CopyComplete
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.dll
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.pdb
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.csproj.CoreCompileInputs.cache
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\bin\Debug\netcoreapp3.0\Divar.Core.deps.json
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\bin\Debug\netcoreapp3.0\Divar.Core.dll
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\bin\Debug\netcoreapp3.0\Divar.Core.pdb
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\bin\Debug\netcoreapp3.0\DataAccessLayer.dll
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\bin\Debug\netcoreapp3.0\DataAccessLayer.pdb
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.csprojAssemblyReference.cache
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.AssemblyInfoInputs.cache
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.AssemblyInfo.cs
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.csproj.CoreCompileInputs.cache
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.csproj.CopyComplete
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.dll
+F:\DivarPRJCT\TDivar3 - Copy (2)\Divar.Core\obj\Debug\netcoreapp3.0\Divar.Core.pdb

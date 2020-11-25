@@ -1,0 +1,24 @@
+F:\DivarPRJCT\TDivar3\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.deps.json
+F:\DivarPRJCT\TDivar3\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.runtimeconfig.json
+F:\DivarPRJCT\TDivar3\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.runtimeconfig.dev.json
+F:\DivarPRJCT\TDivar3\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.dll
+F:\DivarPRJCT\TDivar3\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.pdb
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.AssemblyInfoInputs.cache
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.AssemblyInfo.cs
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.dll
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.pdb
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.genruntimeconfig.cache
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.csprojAssemblyReference.cache
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.deps.json
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.runtimeconfig.json
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.runtimeconfig.dev.json
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.dll
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\bin\Debug\netcoreapp3.0\DataAccessLayer.pdb
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.csprojAssemblyReference.cache
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.AssemblyInfoInputs.cache
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.AssemblyInfo.cs
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.dll
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.pdb
+F:\DivarPRJCT\TDivar3 - Copy (2)\DataAccessLayer\obj\Debug\netcoreapp3.0\DataAccessLayer.genruntimeconfig.cache

@@ -1,0 +1,21 @@
+﻿@model Divar.Core.ViewModel.UserViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<form asp-action="EditUser" class="form-padding">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <h3 class="text-center">سطح کاربری جدید کاربر را انتخاب کنید</h3>
+    </div>
+    <div class="form-group">
+        @Html.DropDownList("Name", null, htmlAttributes: new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn-red pull-right" value="اعمال شود" />
+        <a asp-action="Index" asp-controller="Admins" class="btn-light pull-left">انصراف</a>
+    </div>
+</form>

@@ -1,0 +1,41 @@
+﻿@model DataAccessLayer.Entites.Advert
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<form class="form-padding">
+    <div dir="rtl">
+        <div>
+            <h2>@Model.Name</h2>
+            <h4 class="pull-right">تاریخ آگهی : @Model.Date</h4>
+            <h4 class="pull-left">بازدید : @Model.Seen</h4>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="mg-top-30">
+            <a href="#" onclick="document.getElementById('showmobile').innerHTML=@Model.User.Mobile" class="btn-red pull-right">نمایش شماره تلفن</a>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <h4 id="showmobile"></h4>
+
+        <div class="clearfix"></div>
+
+        <div class="mg-top-30">
+            <p>@Model.Des</p>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div>
+            @await Component.InvokeAsync("AdminFieldComponent", Model.Id)
+        </div>
+
+        <div class="Pic">
+            @await Component.InvokeAsync("AdminGalleryComponent", Model.Id)
+        </div>
+    </div>
+
+</form>

@@ -1,0 +1,30 @@
+﻿@model Divar.Core.ViewModel.AddGalleryViewModel
+
+@{
+    Layout = "~/Views/Shared/_ModalLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<div class="row">
+   
+        <div class=" text-center col-lg-4 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0 mg-top-60">
+            <form asp-action="CreateGallery" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                
+                <div class="text-center form-group">
+                    <center>
+                        <input type="file" asp-for="Img" />
+                    </center>
+                        <h5>لطفا یک تصویر بارگزاری کنید سپس بر روی گزینه ذخیره کلیک کنید</h5>
+                        <span asp-validation-for="Img" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="ذخیره" class="btn-red pull-right" />
+                    <a asp-action="ShowGallery" asp-controller="Advert" asp-route-id="@Model.Id" class="btn-red pull-left">بازگشت </a>
+                </div>
+                   
+            </form>
+        </div>
+    
+</div>

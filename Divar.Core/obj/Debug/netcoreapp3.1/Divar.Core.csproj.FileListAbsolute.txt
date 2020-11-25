@@ -1,0 +1,3 @@
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.1\Divar.Core.csprojAssemblyReference.cache
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.1\Divar.Core.AssemblyInfoInputs.cache
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.1\Divar.Core.AssemblyInfo.cs

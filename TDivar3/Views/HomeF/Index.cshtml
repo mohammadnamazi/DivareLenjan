@@ -1,0 +1,29 @@
+﻿<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-lg-4 col-md-4 main-right-column">
+
+            <h4 class="main text-center">سایت دیوار </h4>
+
+            <h4 class="mg-top-30 text-center">کاربر محترم جهت خرید محصول با انتخاب شهرمورد نظر اگهی های آن شهر را مشاهده م محصول خود را امتخاب نمایید</h4>
+
+            <h4 class="mg-top-30 mg-bottom-30 text-center">همچنین جهت فروش محصول خود پس از ثبت نام در سایت و ورود به پنل کاربری بر روی دکمه ثبت رایگان آگهی کلیک نماید.</h4>
+
+            <img src="~/images/enamad.jpg" alt="نماد اعتماد" width="100" height="100" class="img-responsive" style="margin: auto" />
+
+            <h4 class="main text-center"></h4>
+
+
+
+        </div>
+
+        <div class="col-lg-8 col-md-8">
+
+            <div class="main-left-column">
+                @(await Component.InvokeAsync("CityComponent", ViewBag.MyString))
+            </div>
+
+        </div>
+    </div>
+
+</div>

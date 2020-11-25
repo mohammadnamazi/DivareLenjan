@@ -1,0 +1,26 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0 main" style="align-content: center; text-align: center">
+            <div class=" tab navbar-border-bottom" dir="rtl">   
+                    <div class="active tablinks  text-center" href="#firsttab" data-toggle="tab">آگهی ها</div>
+                    <div class="tablinks  text-center" href="#secoundtab" data-toggle="tab">نشان کرده ها</div>
+                    <div class="tablinks  text-center" href="#Thirdtab" data-toggle="tab">آخرین بازدید</div>
+            </div>     
+        </div>
+    </div>
+</div>
+<center>
+    <div>
+        <div class="tab-content text-center" dir="rtl">
+            <div id="firsttab" class=" tab-pane fade" role="tabpanel">
+                @await Component.InvokeAsync("AdvertViewComponents")
+            </div>
+            <div id="secoundtab" class="tab-pane fade" role="tabpanel">
+                @await Component.InvokeAsync("MarkComponent",ViewBag.MyId)
+            </div>
+            <div id="Thirdtab" class="tab-pane fade" role="tabpanel">
+                @await Component.InvokeAsync("VisitComponent", ViewBag.MyId)
+            </div>
+        </div>
+    </div>
+</center>

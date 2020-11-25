@@ -1,0 +1,9 @@
+F:\DivarPRJCT\TDivar3\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.deps.json
+F:\DivarPRJCT\TDivar3\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfoInputs.cache
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.AssemblyInfo.cs
+F:\DivarPRJCT\TDivar3\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.json
+F:\DivarPRJCT\TDivar3\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.runtimeconfig.dev.json
+F:\DivarPRJCT\TDivar3\DataAccessLayer\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.dll
+F:\DivarPRJCT\TDivar3\DataAccessLayer\obj\Debug\netcoreapp3.1\DataAccessLayer.pdb

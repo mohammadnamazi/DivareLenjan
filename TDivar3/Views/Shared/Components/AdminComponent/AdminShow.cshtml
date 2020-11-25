@@ -1,0 +1,84 @@
+﻿@model System.Collections.Generic.IEnumerable<DataAccessLayer.Entites.User>
+
+
+<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0 mg-top-60 fc-black">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Role.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Mobile)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Code)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IsActive)
+                </th>
+                <th>
+                    عملیات
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Role.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Mobile)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Code)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsActive)
+                    </td>
+                    <td>
+                        <a href="#" onclick='ConfirmDelete(@item.Id)' class="btn-delete"><i class="fas fa-trash"></i></a>
+                        <a href="#" onclick='ConfirmEdit(@item.Id)' class="btn-edit"><i class="fas fa-users-cog"></i></a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div id="bodyModal" class="modal-body">
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function ConfirmDelete(id) {
+        $.ajax({
+            url: "/Admins/Delete/" + id,
+            type: "Get",
+            data: {}
+        }).done(function (result) {
+            $('#myModal').modal('show');
+            $('#bodyModal').html(result);
+        });
+    }
+</script>
+<script>
+    function ConfirmEdit(id) {
+        $.ajax({
+            url: "/Admins/EditUser/" + id,
+            type: "Get",
+            data: {}
+        }).done(function (result) {
+            $('#myModal').modal('show');
+            $('#bodyModal').html(result);
+        });
+    }
+</script>

@@ -1,0 +1,11 @@
+F:\DivarPRJCT\TDivar3\Divar.Core\bin\Debug\netcoreapp3.1\Divar.Core.deps.json
+F:\DivarPRJCT\TDivar3\Divar.Core\bin\Debug\netcoreapp3.1\Divar.Core.dll
+F:\DivarPRJCT\TDivar3\Divar.Core\bin\Debug\netcoreapp3.1\Divar.Core.pdb
+F:\DivarPRJCT\TDivar3\Divar.Core\bin\Debug\netcoreapp3.1\DataAccessLayer.dll
+F:\DivarPRJCT\TDivar3\Divar.Core\bin\Debug\netcoreapp3.1\DataAccessLayer.pdb
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.1\Divar.Core.csprojAssemblyReference.cache
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.1\Divar.Core.AssemblyInfoInputs.cache
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.1\Divar.Core.AssemblyInfo.cs
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.1\Divar.Core.csproj.CopyComplete
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.1\Divar.Core.dll
+F:\DivarPRJCT\TDivar3\Divar.Core\obj\Debug\netcoreapp3.1\Divar.Core.pdb
